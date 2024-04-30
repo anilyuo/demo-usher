@@ -1,15 +1,18 @@
 {
-  "dependencies": {
-    "express": "*"
-  },
+  "name": "bootcamp-node-project",
+  "version": "1.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "test": "jest --ci --reporters=default --reporters=jest-junit",
+    "start": "node server.js"
   },
-  "name": "basic-nodejs",
-  "version": "1.0.0",
-  "main": "app.js",
-  "devDependencies": {},
-  "author": "Aditya",
-  "license": "MIT",
-  "description": "NodeJS Project with Expres FrameWork and Running in Docker Container"
+  "author": "NJ",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "jest": "26.6.3",
+    "jest-junit": "13.0.0"
+  }
 }
+
